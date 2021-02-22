@@ -9,7 +9,7 @@ const car = carMakers[0];
 const myCar = carMakers.pop();
 
 // Prevent incompatible values
-carMakers.push(100);
+//carMakers.push(100);
 
 // Help with methods
 carMakers.map(car => {
@@ -20,4 +20,4 @@ carMakers.map(car => {
 const importantDates: (Date | string)[] = [];
 importantDates.push('2022-05-13');
 importantDates.push(new Date());
-importantDates.push(100);
+//importantDates.push(100);
