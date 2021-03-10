@@ -1,8 +1,12 @@
 "use strict";
-console.log('hello there');
-var log = function (msg) {
-    console.log(msg);
-};
-log('this is a test');
-log('another test');
-log('My name is marc lucraft');
+Object.defineProperty(exports, "__esModule", { value: true });
+var Sorter_1 = require("./Sorter");
+var CharactersCollection_1 = require("./CharactersCollection");
+// const numberscollection = new NumbersCollection([10, 3, -5, 0]);
+// const sorter = new Sorter(numberscollection);
+// sorter.sort();
+// console.log(numberscollection.data);
+var characterscollection = new CharactersCollection_1.CharactersCollection('Keeley');
+var sorter = new Sorter_1.Sorter(characterscollection);
+sorter.sort();
+console.log(characterscollection.data);
